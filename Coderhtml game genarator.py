@@ -1,5 +1,6 @@
 #Coderhtml game generator
 #Type of device for the game. One space in python for indentation which is used for brackets in other programming languages. Use one space in python.
+#a is used as a variable in the code. Do not use only a in the code.
 print("Type the option content and press the enter key.")
 gametype= input("Which type of game- 1) PC 2) Mobile-")
 if(gametype=="PC" or gametype=="Mobile"):
