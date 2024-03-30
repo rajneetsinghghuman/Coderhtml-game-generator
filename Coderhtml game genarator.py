@@ -137,6 +137,7 @@ code='''<button onclick="startsoftware();">Open Software in Fullscreen Mode</but
 <script>'''
 code2='''let c = document.getElementById("myCanvas");
 let ctx = c.getContext("2d");
+let a=0;
 function startsoftware(){
 openFullscreen.call();
 }
@@ -195,8 +196,6 @@ images54()
 code4='''key2=1;
 a=0;
 }
-startsoftware2.call();
-s2.call();
 function s2() {
   if (a==0) {
     a=1;
