@@ -193,9 +193,17 @@ def images54():
   images54()
 images54()
 code4='''key2=1;
-let ct= setTimeout(startsoftware2,800);
+a=0;
 }
 startsoftware2.call();
+s2.call();
+function s2() {
+  if (a==0) {
+    a=1;
+    startsoftware2.call();
+  }  
+}
+setInterval(s2,800);
 </script>
 </body>
 </html>'''
